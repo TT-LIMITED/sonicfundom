@@ -85,6 +85,8 @@ hr {
     text-shadow: 0 0 5px rgb(40, 255, 129);
     color: rgb(40, 255, 129);
     box-shadow: 0 0 5px rgb(40, 255, 129);
+    border: none;
+    border-top: 2px solid rgb(40, 255, 129)
 }
 @media (max-width: 768px) {
     body {
