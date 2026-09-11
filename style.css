@@ -129,5 +129,6 @@ hr {
     }
     main h1 {
         font-size: 36px;
+        max-width: 100%;
     }
 }
