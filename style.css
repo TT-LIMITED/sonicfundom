@@ -77,17 +77,6 @@ main h3 {
 .abc {
     text-align: center;
 }
-.s-a {
-    font-family: 'Press Start 2P', monospace;
-    font-size: 25px;
-    margin: 0 auto;
-    padding: 0;
-    line-height: 1.5;
-    letter-spacing: 0;
-    white-space: pre;
-    text-align: left;
-    display: inline-block;
-}
 main {
     text-align: center;
 }
@@ -98,14 +87,44 @@ hr {
     box-shadow: 0 0 5px rgb(40, 255, 129);
 }
 @media (max-width: 768px) {
-    .s-a {
+    body {
+        padding: 15px;
+        font-size: 14px;
+    }
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    header h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .ring {
+        width: 30px;
+        height: 30px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 0;
+    }
+    nav a {
         font-size: 12px;
-        line-height: 1.1;
-        width: 100%;
-        overflow-x: auto;
-        margin: 0;
-        padding: 10px 5px;
-        text-align: left;
-        white-space: pre;
+        padding: 5px 10px;
+    }
+    main {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 0 5px;
+    }footer {
+        font-size: 12px;
+        padding: 10px;
     }
 }
