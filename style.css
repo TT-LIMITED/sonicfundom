@@ -1,0 +1,99 @@
+body {background-color:rgb(26, 26, 26);
+    margin: 0;padding: 0;
+    font-family: 'Press Start 2P';
+    color: rgb(40, 255, 129);
+    text-shadow: 0 0 5px rgb(40, 255, 129)
+}
+header {
+    background-color: rgb(26, 26, 26);
+    padding: 0px 20px;
+    border-bottom: 3px solid rgb(40, 255, 129);
+    border-radius: 15px;
+    border: 3px solid rgb(40, 255, 129);
+    box-shadow: 0 0 20px rgb(40, 255, 129);
+    color: rgb(40, 255, 129);
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 0 0 10px rgb(40, 255, 129);
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.ring {
+    width: 30;
+    height: 30;
+    filter: drop-shadow(0 0 10px #f0ff25);
+    animation: blink 1s infinite;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 2px solid rgb(40, 255, 129);
+    text-shadow: 0 0 5px rgb(40, 255, 129);
+    box-shadow: 0 0 20px rgb(40, 255, 129);
+}
+nav a {
+    color: rgb(40, 255, 129);
+    text-decoration: none;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 14px;
+    padding: 8px 14px;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
+}
+nav a:hover {
+    color: rgb(26, 26, 26);
+    background-color: rgb(40, 255, 129);
+    border: 2px solid rgb(40, 255, 129);
+    box-shadow: 0 0 15px rgb(40, 255, 129);
+    border-radius: 8px;
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+header h2 {
+    animation: blink 1s infinite;
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(40, 255, 129);
+}
+main h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 0 0 10px rgb(40, 255, 129);
+}
+main h3 {
+    text-shadow: 0 0 5px rgb(40, 255, 129);
+}
+.abc {
+    text-align: center;
+}
+main pre {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0;
+    white-space: pre;
+    text-align: left;
+    display: inline-block;
+}
+main {
+    text-align: center;
+}
+hr {
+    font-family: 'Press Start 2P';
+    text-shadow: 0 0 5px rgb(40, 255, 129);
+    color: rgb(40, 255, 129);
+    box-shadow: 0 0 5px rgb(40, 255, 129);
+}
