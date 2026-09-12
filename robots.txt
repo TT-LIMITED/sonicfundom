@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tt-limited.github.io/sonicfundom/sitemap.xml
