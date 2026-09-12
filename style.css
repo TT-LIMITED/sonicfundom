@@ -23,8 +23,8 @@ header {
     justify-content: center;
 }
 .ring {
-    width: 30;
-    height: 30;
+    width: 30px;
+    height: 30px;
     filter: drop-shadow(0 0 10px #f0ff25);
     animation: blink 1s infinite;
 }
@@ -128,7 +128,8 @@ hr {
         font-size: 14px;
         margin: 10px 0;
         padding: 0 5px;
-    }footer {
+    }
+    footer {
         font-size: 12px;
         padding: 10px;
     }
