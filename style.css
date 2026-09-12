@@ -137,3 +137,18 @@ hr {
         max-width: 100%;
     }
 }
+.abc {
+    opacity: 0;
+    transform: translateY(30px) scale(0.5);
+    animation: abc 0.5s ease-out forwards;
+}
+@keyframes abc {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
