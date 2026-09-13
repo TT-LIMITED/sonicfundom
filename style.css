@@ -108,7 +108,24 @@ main h3 {
     width: fit-content;
 }
 main {
-    text-align: center;
+    text-align: left;
+}
+.wb {
+    display: inline-block;
+    background-color: rgb(26, 26, 26);
+    border: 3px solid rgb(40, 255, 129);
+    border-radius: 15px;
+    padding: 0 8px;
+    color: rgb(40, 255, 129);
+    box-shadow: 0 0 10px rgb(40, 255, 129);
+    text-shadow: 0 0 5px rgb(40, 255, 129);
+    text-align: left;
+    line-height: 0.5;
+    margin: 7px 0;
+}
+.soz {
+    color: #f0ff25;
+    text-shadow: #f0ff25;
 }
 hr {
     font-family: 'Press Start 2P';
