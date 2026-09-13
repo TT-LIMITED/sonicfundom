@@ -29,7 +29,7 @@ header {
     animation: blink 1s infinite;
 }
 nav {
-    display: flex inline-block;
+    display: inline-flex;
     justify-content: center;
     gap: 30px;
     padding: 0 20px;
