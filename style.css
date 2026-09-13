@@ -100,7 +100,7 @@ main h3 {
     text-align: center;
 }
 .abc h1 {
-    text-size: 36px;
+    width: fit-content;
 }
 main {
     text-align: center;
