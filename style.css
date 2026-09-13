@@ -65,11 +65,7 @@ nav a:hover {
     margin: 20px auto;
     max-width: 600px;
     text-align: left;
-}
-.fac h2 {
-    color: rgb(40, 255, 129);
-    text-align: center;
-    margin-bottom: 15px;
+    box-shadow: 0 0 15px rgb(40, 255, 129);
 }
 .fac ul {
     color: #ccffcc;
