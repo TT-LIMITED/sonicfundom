@@ -125,7 +125,7 @@ main {
 }
 .soz {
     color: #f0ff25;
-    text-shadow: #f0ff25;
+    text-shadow: 0 0 5px #f0ff25;
 }
 hr {
     font-family: 'Press Start 2P';
