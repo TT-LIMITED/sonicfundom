@@ -99,6 +99,9 @@ main h3 {
 .abc {
     text-align: center;
 }
+.abc h1 {
+    text-size: 36px;
+}
 main {
     text-align: center;
 }
