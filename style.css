@@ -132,9 +132,11 @@ hr {
         height: 30px;
     }
     nav {
-        flex-direction: column;
-        gap: 5px;
-        padding: 10px 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
     }
     nav a {
         font-size: 12px;
