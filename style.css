@@ -134,7 +134,7 @@ hr {
     nav {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5px;
         padding: 10px;
         justify-content: center;
     }
