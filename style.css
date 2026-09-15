@@ -97,6 +97,20 @@ main h1 {
     text-align: center;
     font-size: 48px;
     text-shadow: 0 0 10px rgb(40, 255, 129);
+.sr {
+    width: 62.5px;
+    height: 73px;
+    background-image: url('icons/sonic-run.png');
+    background-repeat: no-repeat;
+    background-size: 250px 73px;       /* вся картинка целиком */
+    animation: sonic-run 0.4s steps(4) infinite;
+    image-rendering: pixelated;
+}
+
+@keyframes sr {
+    from { background-position: 0 0; }
+    to   { background-position: -250px 0; }   /* вся ширина картинки */
+}
 }
 main h3 {
     text-shadow: 0 0 5px rgb(40, 255, 129);
