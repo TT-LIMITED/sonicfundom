@@ -4,9 +4,10 @@
 }
 
 th, td {
-    border: 1px solid rgb(40,255,129);
+    border: 3px solid rgb(40,255,129);
     padding: 8px;
     text-align: left;
+    border-radius: 15px;
 }
 
 th {
