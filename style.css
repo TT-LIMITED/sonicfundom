@@ -3,7 +3,8 @@ table {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    margin: 0;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 th, td {
