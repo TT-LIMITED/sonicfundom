@@ -1,0 +1,10 @@
+header {
+    text-align: center;
+    font-size: 36px;
+    
+}
+body {
+    color: rgb(226, 226, 226);
+    background-image: url('back.jpg');
+    background-size: cover;
+}
